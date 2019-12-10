@@ -97,7 +97,7 @@ public class TestBase {
 		}
 
 		test.log(LogStatus.INFO, "Clicking on:-" + locator);
-		System.out.println("locator:-"+locator);
+		
 	}
 
 	public void clean(String locator) {

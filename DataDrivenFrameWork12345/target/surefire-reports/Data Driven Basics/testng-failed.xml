@@ -6,23 +6,12 @@
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
     <listener class-name="com.w2a.listeners.CustomListeners"/>
   </listeners>
-  <test name="Designmate LoginTest(failed)">
-    <classes>
-      <class name="com.w2a.testcases.DesignmateLoginTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="designmateLogintest" invocation-numbers="0 1 2"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.w2a.testcases.DesignmateLoginTest -->
-    </classes>
-  </test> <!-- Designmate LoginTest(failed) -->
   <test name="Designmate SignUp(failed)">
     <classes>
       <class name="com.w2a.testcases.DesignmateSignUpTest">
         <methods>
           <include name="setUp"/>
-          <include name="designmateSignUpTest"/>
+          <include name="designmateSignUpTest" invocation-numbers="0 1"/>
           <include name="tearDown"/>
           <include name="testbefor"/>
         </methods>
